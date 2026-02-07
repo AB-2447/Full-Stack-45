@@ -9,13 +9,20 @@
         div{
             height: 200px;
             width: 200px;
-            display: inline;
+            display: inline-block;
             background-color: red;
+        }
+        
+        @media (max-width:600px){
+            body{
+                background-color: aquamarine;
+            }
+
         }
     </style>
 </head>
 <body>
-    <div id="a">Hello</div>
+    <div id="a"></div>
     <div id="b"></div>
     <div id="c"></div>
 </body>
